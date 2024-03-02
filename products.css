@@ -1,0 +1,97 @@
+body {
+    background-image: url(Yarnjpg3.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /* background-image: url(assets/meHeadShot.jpg); */
+}
+
+header {
+    position: top;
+background-color:rgb(253, 192, 255);
+ color: rgb(219, 112, 147);
+ font-size: 30px;
+ font-family: 'Dancing Script', cursive;
+ margin: 50px;
+
+}
+
+element.style {
+    background-color: rgb(247 194 203 / 44%);
+}
+ .links-grid {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.nav-link {
+    text-align: left;
+    font-family: 'Prata', serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 50px;
+    margin-inline: 40px;
+    
+
+
+}
+.nav-link a {
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 15 px;
+    
+    
+}
+
+
+
+img.row{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 100px;
+    border: 2px solid plum;
+    height:250px; 
+    margin: 20px;
+    padding: 15px;
+    width: 5px; 
+}
+main {
+    text-align:center;
+    font-size: 17px;
+    color:rgb(201, 47, 155)
+
+  }  
+
+    
+
+.title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.intro {
+    max-width: 500px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: palevioletred;
+    height: 25px;
+}
+
+.centered{
+text-align: center;
+}
+a {
+    color: lavenderblush;
+}
+
+h1 {
+    padding-bottom: 25px;
+}
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}

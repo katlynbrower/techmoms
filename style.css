@@ -1,0 +1,87 @@
+header {
+    position: top;
+    /*background-color:rgb(200, 90, 204);*/
+    color: rgb(219, 112, 192);
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    margin: 50px;
+
+}
+ .links-grid {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-right: 70px;
+}
+.nav-link {
+    text-align: center;
+    font-family: 'Prata', serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 50px;
+    margin-inline: 40px;
+
+
+
+}
+.nav-link a {
+    text-decoration: none;
+    color: rgb(211, 43, 213);
+    font-size: 15 px;
+}
+
+
+
+img{
+    border-radius: 100px;
+    border: 2px solid plum;
+    height:250px; 
+    margin: 20px;
+    padding: 15px; 
+    position: absolute; left: 0px;
+    
+}
+main {
+    text-align:center;
+    font-size: 60px;
+    color: rgb(74, 37, 78);
+    
+
+
+ 
+h3 {
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    
+  }  
+
+ 
+    
+}
+.title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.intro {
+    max-width: 500px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: rgb(245, 104, 219);
+    height: 25px;
+}
+
+.centered{
+text-align: center;
+}
+a {
+    color: rgb(120, 27, 163);
+}
+
+element.style {
+    background-color: rgb(247 194 203 / 44%);
+}
